@@ -1,0 +1,93 @@
+.Main{
+    background-image: url('../../assests/images/240_F_597383325_M8M5gK1bWrMyRJCkvkmg2hgdXOqRvJI1.jpg');
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 50px;
+}
+
+.main-heading{
+    color: rgb(30, 30, 91);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.main-para{
+    color: rgb(30, 30, 91);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+.input-element{
+    background-color: transparent;
+    border: 1px solid rgb(30, 30, 91);
+    border-radius: 15px;
+    height: 45px;
+    width: 40%;
+    color: black;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.Search-button{
+    background-color: rgb(30, 30, 91);
+    height: 45px;
+    width: 100px;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Search-button:hover{
+    background-color: white;
+    color: rgb(30, 30, 91);
+    border: 1px rgb(30, 30, 81) solid;
+}
+
+.library-button{
+    background-color: rgb(30, 30, 91);
+    height: 45px;
+    width: 200px;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.library-button:hover{
+    background-color: white;
+    color: rgb(30, 30, 91);
+    border: 1px rgb(30, 30, 81) solid;
+}
+
+.books-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}

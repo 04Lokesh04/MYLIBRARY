@@ -1,0 +1,78 @@
+.Book-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 40px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading-title{
+    color: rgb(30, 30, 81);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.add-button{
+    background-color: rgb(30, 30, 91);
+    height: 45px;
+    width: 80px;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+.add-button:hover{
+    background-color: white;
+    color: rgb(30, 30, 91);
+    border: 1px rgb(30, 30, 81) solid;
+}
+
+.para-author{
+    color: rgb(30, 30, 81);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.para-para-genre{
+    color: rgb(30, 30, 81);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.para-description{
+    color: rgb(30, 30, 81);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.para-rating{
+    color: rgb(30, 30, 81);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.para-published{
+    color: rgb(30, 30, 81);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}

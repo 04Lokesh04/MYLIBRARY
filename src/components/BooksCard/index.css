@@ -1,0 +1,64 @@
+.list{
+    list-style-type: none;
+    
+}
+
+.book-link{
+    text-decoration: none;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+    height: 300px;
+    width: 320px;
+    background-color: rgb(232, 232, 251);
+    color: rgb(30, 30, 81);
+    padding: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.book-title{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.book-rating{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+span{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.book-author{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.book-genre{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.book-description{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
